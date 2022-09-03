@@ -1,0 +1,36 @@
+<!-- in this project we will be creating a CV screener for a head of company who can select or reject cv's using this -->
+<!--for creating this project we use bootstrap, for including some style sheets and scripts, for saving our time in writing
+css(responsiveness, styling, etc)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Screener</title>
+    <!-- including bootstrap basic stylesheet for responsiveness and styling-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#"><b>CV Screener</b></a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-6 mx-auto">
+                <h1 style="margin-left: 7vw; margin-bottom: 4vh;"><b>Candidate Application</b></h1>
+                <div id="image" style="margin-left: 17vw;"></div><hr style="border: 2px solid;">
+                <div id="profile"></div><hr style="border: 2px solid;">
+                <button class="btn btn-primary" id="btn-next" style="width: 44.1vw;">Next</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- including bootstrap basic script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/CV_screener.js"></script>
+</body>
+</html>
