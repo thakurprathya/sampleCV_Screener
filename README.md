@@ -1,2 +1,4 @@
-# sampleCV_Screener
-A sample CV screener using HTML, CSS, JavaScript &amp; Bootstrap
+# CV Screener
+using HTML, CSS, JavaScript &amp; Bootstrap
+
+App Link : https://thakurprathya.github.io/sampleCV_Screener/
